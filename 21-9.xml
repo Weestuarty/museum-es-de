@@ -1,0 +1,87 @@
+<theme>
+    <view name="system">
+   <carousel name="system_grid">
+            <pos>0.687 0.5</pos>
+            <size>0.37 0.5</size>
+            <origin>0.5 0.5</origin>
+            <staticImage>./core/backgrounds/${system.theme}.png</staticImage>
+            <defaultImage>./core/backgrounds/auto-allgames.png</defaultImage>
+            <itemSize>0.5 .5</itemSize>
+            <itemScale>1</itemScale>
+            <color>00000000</color>
+            <unfocusedItemOpacity>0.25</unfocusedItemOpacity>
+            <text>${system.fullName}</text>
+            <textColor>${mainFontColor}</textColor>
+            <fontPath>${mainFont}</fontPath>
+            <fontSize>0.025</fontSize>
+            <letterCase>uppercase</letterCase>
+            <lineSpacing>1.2</lineSpacing>
+            <zIndex>32</zIndex>
+        </carousel>
+         <image name="frame">
+            <pos>0.687 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.45 0.68</size>
+            <path>./core/images/frame.png</path>
+            <zIndex>30</zIndex>
+        </image>
+        <image name="cover3">
+            <pos>0.687 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.41 0.605</size>
+            <path>./core/images/white.jpg</path>
+            <color>EEEEEE</color>
+            <zIndex>31</zIndex>
+        </image>
+        <image name="cover">
+            <pos>0.227 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.35 0.85</size>
+            <path>./core/images/white2.jpg</path>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="cover2">
+            <pos>0.23 0.5051</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.35 0.85</size>
+            <path>./core/images/background.png</path>
+            <color>111111</color>
+            <opacity>0.4</opacity>
+            <zIndex>4</zIndex>
+        </image>
+        <text name="sysman">
+            <pos>0.065 0.18</pos>
+            <fontPath>./core/fonts/museumBoldItalic.ttf</fontPath>
+            <fontSize>0.035</fontSize>
+            <text>${systemManufacturer}, (${systemReleaseYear})</text>
+            <color>${mainFontColor3}</color>
+        </text>
+        <text name="sysname">
+            <pos>0.065 0.08</pos>
+            <size>0.3 0.1</size>
+            <fontPath>./core/fonts/museumBold.ttf</fontPath>
+            <color>${mainFontColor}</color>
+            <fontSize>0.04</fontSize>
+            <systemdata>fullname</systemdata>
+            <letterCase>uppercase</letterCase>
+            <lineSpacing>1</lineSpacing>
+            <verticalAlignment>center</verticalAlignment>
+        </text>
+        <text name="sysdesc">
+            <pos>0.065 0.25</pos>
+            <size>0.325 0.67</size>
+            <fontPath>${mainFont}</fontPath>
+            <color>${mainFontColor2}</color>
+            <fontSize>0.025</fontSize>
+            <text>${systemDescription}</text>
+            <container>false</container>
+            <lineSpacing>1</lineSpacing>
+            <fontPath>./core/fonts/museumLight.ttf</fontPath>
+        </text>
+    </view>
+    <view name="gamelist">
+    
+</view>
+
+
+</theme>
