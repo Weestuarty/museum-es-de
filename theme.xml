@@ -5,10 +5,9 @@
 -->
 
 <theme>
-    <include>./system/metadata/_default.xml</include>
-    <include>./system/custom/metadata/_default.xml</include>
-    <include>./system/custom/metadata/${system.theme}.xml</include>
-    <include>./system/metadata/${system.theme}.xml</include>
+    <include>./core/sysdata/_default.xml</include>
+    <include>./core/sysdata/${system.theme}.xml</include>
+     
         
         <aspectRatio name="16:10">
             <include>./16-10.xml</include>
@@ -113,8 +112,8 @@
     </view>
     <view name="gamelist">
         <carousel name="system_grid">
-            <pos>0.75 0.85</pos>
-            <size>0.48 0.2</size>
+            <pos>0.76 0.85</pos>
+            <size>0.5 0.2</size>
             <origin>0.5 0.5</origin>
             <maxItemCount>3.5</maxItemCount>
             <imageType>cover</imageType>
@@ -122,6 +121,7 @@
             <itemScale>1.3</itemScale>
             <selectedItemMargins>0.02 0.02</selectedItemMargins>
             <color>00000000</color>
+            
             <horizontalOffset>-0.29</horizontalOffset>
             <unfocusedItemOpacity>0.25</unfocusedItemOpacity>
             <text>${system.fullName}</text>

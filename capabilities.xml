@@ -9,7 +9,23 @@
     <aspectRatio>21:9</aspectRatio>
     
     <themeName>Museum</themeName>
+<suppressTransitionProfiles>
+        <entry>builtin-instant</entry>
+        <entry>builtin-slide</entry>
+        <entry>builtin-fade</entry>
+    </suppressTransitionProfiles>
 
+    
+    <transitions name="instant">
+        <label>Instant</label>
+        <selectable>true</selectable>
+        <systemToSystem>instant</systemToSystem>
+        <systemToGamelist>instant</systemToGamelist>
+        <gamelistToGamelist>instant</gamelistToGamelist>
+        <gamelistToSystem>instant</gamelistToSystem>
+        <startupToSystem>instant</startupToSystem>
+        <startupToGamelist>instant</startupToGamelist>
+    </transitions>
     <variant name="withVideos">
         <label>With videos</label>
         <selectable>true</selectable>
