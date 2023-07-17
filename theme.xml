@@ -307,7 +307,7 @@
 			<size>0.27 0.06</size>
 			<direction>row</direction>
 			<lines>1</lines>
-			<itemsPerLine>6</itemsPerLine>
+			<itemsPerLine>7</itemsPerLine>
 			<slots>completed, favorite, altemulator, kidgame,controller,collection,manual</slots>
 			<controllerPos>0.5 0.575</controllerPos>
 			<controllerSize>0.85</controllerSize>
